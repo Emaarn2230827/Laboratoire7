@@ -1,0 +1,16 @@
+C:\Users\2230827\Documents\Code\Prog2\laboratoire6\Calculateur\Calculateur\bin\Debug\Calculateur.exe.config
+C:\Users\2230827\Documents\Code\Prog2\laboratoire6\Calculateur\Calculateur\bin\Debug\Calculateur.exe
+C:\Users\2230827\Documents\Code\Prog2\laboratoire6\Calculateur\Calculateur\bin\Debug\Calculateur.pdb
+C:\Users\2230827\Documents\Code\Prog2\laboratoire6\Calculateur\Calculateur\obj\Debug\Calculateur.csproj.AssemblyReference.cache
+C:\Users\2230827\Documents\Code\Prog2\laboratoire6\Calculateur\Calculateur\obj\Debug\Calculateur.csproj.SuggestedBindingRedirects.cache
+C:\Users\2230827\Documents\Code\Prog2\laboratoire6\Calculateur\Calculateur\obj\Debug\Calculateur.csproj.CoreCompileInputs.cache
+C:\Users\2230827\Documents\Code\Prog2\laboratoire6\Calculateur\Calculateur\obj\Debug\Calculateur.exe
+C:\Users\2230827\Documents\Code\Prog2\laboratoire6\Calculateur\Calculateur\obj\Debug\Calculateur.pdb
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Calculateur\bin\Debug\Calculateur.exe.config
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Calculateur\bin\Debug\Calculateur.exe
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Calculateur\bin\Debug\Calculateur.pdb
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Calculateur\obj\Debug\Calculateur.csproj.AssemblyReference.cache
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Calculateur\obj\Debug\Calculateur.csproj.SuggestedBindingRedirects.cache
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Calculateur\obj\Debug\Calculateur.csproj.CoreCompileInputs.cache
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Calculateur\obj\Debug\Calculateur.exe
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Calculateur\obj\Debug\Calculateur.pdb

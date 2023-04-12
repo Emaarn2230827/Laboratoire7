@@ -1,0 +1,14 @@
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\bin\Debug\Agence.exe.config
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\bin\Debug\Agence.exe
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\bin\Debug\Agence.pdb
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\bin\Debug\Colorful.Console.dll
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\bin\Debug\Figgle.dll
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\bin\Debug\Humanizer.dll
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\bin\Debug\Figgle.xml
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\bin\Debug\Humanizer.xml
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\obj\Debug\Agence.csproj.AssemblyReference.cache
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\obj\Debug\Agence.csproj.SuggestedBindingRedirects.cache
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\obj\Debug\Agence.csproj.CoreCompileInputs.cache
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\obj\Debug\Agence.csproj.CopyComplete
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\obj\Debug\Agence.exe
+C:\Users\2230827\Documents\Code\Prog2\Laboratoire7\Calculateur\Agence\obj\Debug\Agence.pdb

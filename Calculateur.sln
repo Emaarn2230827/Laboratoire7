@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculateur", "Calculateur\Calculateur.csproj", "{896087C0-2F5B-4989-A880-0BC2D0DA008D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Films", "Films\Films.csproj", "{7CDDFA67-8F1A-416D-A74C-B00BB13C8B04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agence", "Agence\Agence.csproj", "{585232E4-4940-435F-B441-744D87FA57DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{896087C0-2F5B-4989-A880-0BC2D0DA008D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896087C0-2F5B-4989-A880-0BC2D0DA008D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896087C0-2F5B-4989-A880-0BC2D0DA008D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896087C0-2F5B-4989-A880-0BC2D0DA008D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDDFA67-8F1A-416D-A74C-B00BB13C8B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDDFA67-8F1A-416D-A74C-B00BB13C8B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDDFA67-8F1A-416D-A74C-B00BB13C8B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDDFA67-8F1A-416D-A74C-B00BB13C8B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585232E4-4940-435F-B441-744D87FA57DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585232E4-4940-435F-B441-744D87FA57DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585232E4-4940-435F-B441-744D87FA57DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585232E4-4940-435F-B441-744D87FA57DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1387F66-F7D5-4A91-810A-FC24EBC87D94}
+	EndGlobalSection
+EndGlobal
