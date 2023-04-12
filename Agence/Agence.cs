@@ -35,7 +35,12 @@ namespace Agence
             AjouterVaisseau(vs2);
             Vaisseau vs3 = new Vaisseau("space3", 9, 12040.34, 16000, false);
             AjouterVaisseau(vs3);
-            
+            Mission mission1 = new Mission("Escape from lalora", "T22", "2024-02-09", "2024-10-06", Statut.planifiée);
+            AjouterMission(mission1, plt2);
+            Mission mission2 = new Mission("Secure millenium", "T21", "2024-06-25", "2025-01-12", Statut.planifiée);
+            AjouterMission(mission2, plt1);
+
+
         }
         public void AjouterVaisseau(Vaisseau vaisseau)
         {

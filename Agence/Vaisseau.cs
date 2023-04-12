@@ -28,16 +28,16 @@ namespace Agence
             Missions = new List<Mission>();
         }   
 
-        public void Decollage(string destination,string dateDep) 
+        public void Decollage(string destination,string dateDep,bool valOrbite) 
         {
       
-            if (ValeurOrbite)
+            if (valOrbite)
             {
                 throw new Exception("Le vaisseau est déjà en orbite");
             }
             else
             {
-                ValeurOrbite = true;
+                valOrbite = true;
                 Mission mission = new Mission(destination, dateDep);
                 Missions.Add(mission);
             }                   

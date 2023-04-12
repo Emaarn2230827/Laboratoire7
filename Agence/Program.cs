@@ -48,13 +48,13 @@ namespace Agence
                 switch (choix)
                 {
                     case '1':   
-                        Console.WriteLine("Entre le type de l'astronaute");
+                        Console.WriteLine("\n Entre le type de l'astronaute");
                         string typeAstro = Console.ReadLine();
                         spacex.AjouterAstronaute(typeAstro);
                         break;
                     case '2':
                         spacex.AfficherVaisseau();
-                        Console.WriteLine("Entre le numéro du vaisseau à améliorer");
+                        Console.WriteLine("\n Entre le numéro du vaisseau à améliorer");
                         bool verifnum = true;
                         int numV = Convert.ToInt32(Console.ReadLine());
                         try
@@ -82,7 +82,7 @@ namespace Agence
                          
                         break;
                     case '3':
-                        Console.WriteLine("Entre les informations sur la mission");
+                        Console.WriteLine("\n Entre les informations sur la mission");
                         Console.WriteLine("Entre le nom de la mission");    
                         string nomM = Console.ReadLine();
                         Console.WriteLine("Voici la liste des planetes, choisi la destination");
@@ -102,26 +102,43 @@ namespace Agence
                         break;
                     case '5':
                         spacex.AfficherVaisseau();
-                        Console.WriteLine("Entre le nom du vaisseau à lancer");
+                        Console.WriteLine("\n Entre le nom du vaisseau à lancer");
                         string nomvaiss = Console.ReadLine();
                         spacex.AfficherPlanete();
                         Console.WriteLine("Entre la destination");
                         string destination = Console.ReadLine();
                         Console.WriteLine("Entre la date de depart");
-                        string datedep = Console.ReadLine();    
-                        spacex.TrouverVaisseau(nomvaiss).Decollage(destination,datedep);
+                        string datedep = Console.ReadLine();
+                        try
+                        {                           
+                            spacex.TrouverVaisseau(nomvaiss).Decollage(destination, datedep, spacex.TrouverVaisseau(nomvaiss).ValeurOrbite);
+                            Console.WriteLine("La vaisseau vient de decoller avec succes.");
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("Erreur : "+ ex.Message);
+                        }
+                       
                         break;
                     case '6':
                         spacex.AfficherVaisseau();
-                        Console.WriteLine("Entre le nom du vaisseau à changer la vitesse");
+                        Console.WriteLine("\n Entre le nom du vaisseau à changer la vitesse");
                         string nomV = Console.ReadLine();
                         Console.WriteLine("Entre la nouvelle vitesse");
-                        double vitesse = Convert.ToDouble(Console.ReadLine());
-                        spacex.TrouverVaisseau(nomV).ChangerVitesse(vitesse); // comment gerer l'exception . au 5 aussi
+                        try
+                        {
+                            double vitesse = Convert.ToDouble(Console.ReadLine());
+                            spacex.TrouverVaisseau(nomV).ChangerVitesse(vitesse);
+                            Console.WriteLine("La vitesse a été changée avec succès.");
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("Erreur : " + ex.Message);
+                        }
                         break;
                     case '7':
                         spacex.AfficherMission();
-                        Console.WriteLine("Entre le nom de la mission à valider: ");
+                        Console.WriteLine("\n Entre le nom de la mission à valider: ");
                         string nomMi = Console.ReadLine();
                         spacex.TrouverMission(nomMi).CompleterMission();
                         break;
