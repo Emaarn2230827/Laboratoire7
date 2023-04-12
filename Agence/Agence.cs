@@ -93,32 +93,46 @@ namespace Agence
                 Console.WriteLine(Planetes[i].ToString());
             }
         }
-        public Planete TrouverPlanete( string nomP)
+        public Planete TrouverPlanete(string nomP)
         {
-            Planete planete = new Planete();
-            for (int i = 0; i < Planetes.Count; i++)
+            try
             {
-                if(Planetes[i].NomPlanete == nomP)
+                for (int i = 0; i < Planetes.Count; i++)
                 {
-                    planete = Planetes[i];
-                    break;
-                }             
+                    if (Planetes[i].NomPlanete == nomP)
+                    {
+                        return Planetes[i];
+                    }
+                }
+                throw new Exception("La planète **" + nomP + "** n'a pas été trouvée.");
             }
-            return planete;
+            catch (Exception ex)
+            {
+                Console.WriteLine("ERREUR: " + ex.Message);
+                return null;
+            }
         }
+
         public Vaisseau TrouverVaisseau(string nomV)
         {
-            Vaisseau vaisseau = new Vaisseau(null,0,0,0,false);
-            for (int i = 0; i < Vaisseaux.Count; i++)
+            try
             {
-                if (Vaisseaux[i].Nom == nomV)
+                for (int i = 0; i < Vaisseaux.Count; i++)
                 {
-                    vaisseau = Vaisseaux[i];
-                    break;
+                    if (Vaisseaux[i].Nom == nomV)
+                    {
+                        return Vaisseaux[i];
+                    }
                 }
+                throw new Exception("Le vaisseau **" + nomV + "** n'a pas été trouvé dans la liste.");
             }
-            return vaisseau;
+            catch (Exception ex)
+            {
+                Console.WriteLine("ERREUR: " + ex.Message);
+                return null;
+            }
         }
+
 
         public void AfficherMission()
         {
@@ -130,17 +144,24 @@ namespace Agence
         }
         public Mission TrouverMission(string nomM)
         {
-            Mission mission = new Mission(null,null,null,null,Statut.terminée);
-            for (int i = 0; i < Missions.Count; i++)
+            try
             {
-                if (Missions[i].NomMission == nomM)
+                for (int i = 0; i < Missions.Count; i++)
                 {
-                    mission = Missions[i];
-                    break;
+                    if (Missions[i].NomMission == nomM)
+                    {
+                        return Missions[i];
+                    }
                 }
+                throw new Exception("La mission **" + nomM + "** n'a pas été trouvée dans la liste.");
             }
-            return mission;
+            catch (Exception ex)
+            {
+                Console.WriteLine("ERREUR: " + ex.Message);
+                return null;
+            }
         }
+
 
     }
 }

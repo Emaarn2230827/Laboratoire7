@@ -27,14 +27,6 @@ namespace Agence
             Atmosphere = atmosphere;
             StatutP = statut;   
         }
-        public Planete()
-        {
-            NomPlanete = null;
-            TaillePlanete = 0;
-            DistancePlaTerre = 0;
-            Atmosphere = false;
-            StatutP = StatutPlanete.pas_exploré;
-        }
 
         public void VerifierExploration()
         {
